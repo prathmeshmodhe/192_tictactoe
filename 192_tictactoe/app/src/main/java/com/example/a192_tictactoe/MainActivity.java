@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
     boolean isWinner=false;
     int imageClick=-1;
     int player=1;
-    int [][] win={{0,1,2},{3,4,5},{6,7,8},{0,3,6},{1,4,7},{2,5,8},{0,4,8},{2,4,6}};
+    int [][] win={{0,1,2},{3,4,5},{6,7,8},{0,3,6},{1,4,7},{2,5,8},{0,4,8},{2,4,6}}; // this array contains winning conditions
     int [] game={-1,-1,-1,-1,-1,-1,-1,-1,-1};
     int [] tour={};
     int one=0;
